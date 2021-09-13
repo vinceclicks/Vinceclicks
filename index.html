@@ -11,34 +11,81 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/9557baf30d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm fixed-top bg-primary">
-            <div class="container">
-                <div class="navbar-brand text-white d-flex justify-content-start">Vince Clicks</div>
-                <div class="nav-collapse d-flex justify-content-between" id=" Navbar">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item scroll active"><a class="nav-link text-white" href="#home">Home</a></li>
-                        <li class="nav-item scroll"><a class="nav-link text-white" href="#about">About</a></li>
-                        <li class="nav-item scroll"><a class="nav-link text-white" href="#skills">Skills</a></li>
-                        <li class="nav-item scroll"><a class="nav-link text-white" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="d-flex justify-content-end">
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #1e3d58;">
+        <div class=" container">
+            <a class="navbar-brand"><strong>.Vince-clicks{}</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="background-color: #1e3d58;" id="navbarToggler">
+                <ul class="navbar-nav text-center mx-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-none d-sm-flex">
                     <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fab fa-2x fa-github-square"></i></a>
                     <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
                             class="fab fa-2x fa-linkedin"></i></a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+
+
+    <header class="jumbotron" style="background-color: #C2D8EA;">
+        <div class="container pt-1">
+            <div class="row py-5 px-1">
+                <div class="col-12 col-md-6 p-lg-5 align-self-center">
+                    <div class="d-xxl-inline-block text-center"><i class="fas fa-6x fa-cog"></i>
+                    </div>
+                    <div class="d-xxl-inline-block text-center text-xxl-start" id="cog">
+                        <h1><strong>Vincent Thomason</strong></h1>
+                        <h1>Web Developer</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 align-self-center p-5 pb-1 p-md-0 p-lg-2 p-xl-4">
+                    <img src="/content/Figma Flat.png" class="img-fluid" alt="Flat illustration of person at desk">
+                </div>
+            </div>
+        </div>
     </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>About Me</h2>
+            </div>
+            <div class="col-12 text-center">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas exercitationem nisi, mollitia
+                    doloremque labore distinctio beatae, harum facilis fugit quas sit delectus neque consectetur eaque
+                    voluptatem qui, quam iste eligendi!</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -46,11 +93,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
     <script src="js/animation.js"></script>
 
