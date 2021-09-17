@@ -16,9 +16,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #1e3d58;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #1e3d58;">
         <div class=" container">
-            <a class="navbar-brand"><strong>.Vince-clicks{}</strong></a>
+            <a class="navbar-brand" href="#home"><strong>.Vince-clicks{}</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <div class="d-none d-sm-flex">
+                <div class="d-none d-sm-flex mt-sm-2 mt-md-0 justify-content-center">
                     <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fab fa-2x fa-github-square"></i></a>
                     <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
                             class="fab fa-2x fa-linkedin"></i></a>
@@ -49,7 +49,7 @@
 
 
 
-    <header class="jumbotron" style="background-color: #C2D8EA;">
+    <header class="jumbotron" id="home" style="background-color: #C2D8EA;">
         <div class="container pt-1">
             <div class="row py-5 px-1">
                 <div class="col-12 col-md-6 p-lg-5 align-self-center">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="d-xxl-inline-block text-center text-xxl-start" id="cog">
                         <h1><strong>Vincent Thomason</strong></h1>
-                        <h1>Web Developer</h1>
+                        <h1>Front End Developer</h1>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 align-self-center p-5 pb-1 p-md-0 p-lg-2 p-xl-4">
@@ -68,18 +68,101 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>About Me</h2>
+        <div class="row row-content">
+            <div class="col-12 d-flex justify-content-center text-center align-self-center">
+                <h2 class="py-4 mb-3"><strong>About Me</strong></h2>
             </div>
-            <div class="col-12 text-center">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas exercitationem nisi, mollitia
-                    doloremque labore distinctio beatae, harum facilis fugit quas sit delectus neque consectetur eaque
-                    voluptatem qui, quam iste eligendi!</p>
+            <div class="col-12 text-center" id="aboutbio">
+                <p class="fs-5">My name is Vincent Thomason and I'm a Front End Developer from Lexington, Kentucky.
+                    I've always loved the type of work that is both technical and creative, and have recently been
+                    inspired down a path of programming and web development. I consider myself a lifelong learner with a
+                    passion for building things, and I'm looking forward to a fulfilling future within the industry.
+                </p>
             </div>
         </div>
     </div>
 
+    <div class="container" id="skill">
+        <div class="row row-content border">
+            <div class="col-12 d-flex justify-content-center text-center align-self-center">
+                <h2 class="py-4 mb-3"><strong>Skills</strong></h2>
+            </div>
+            <div class="row border mx-auto justify-content-evenly">
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/HTML_logo.png" alt="HTML Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/CSS_logo.png" alt="CSS Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/JS_logo.png" alt="JS Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/Bootstrap_logo.png" alt="Bootstrap Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/Git_logo.png" alt="Git Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-xl-block"></div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/JQuery_logo.png" alt="JQuery Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/Python_logo.png" alt="Python Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/Figma_logo.png" alt="Figma Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/NPM_logo.png" alt="NPM Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="content/MySQL_logo.png" alt="MySQL Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
