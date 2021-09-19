@@ -3,10 +3,64 @@
 reset
 --------------------------------------------- 
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,7 +69,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 /* clear fix */
 .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -57,13 +111,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -71,8 +132,9 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Poppins', sans-serif;
+html,
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #fff;
   -ms-text-size-adjust: 100%;
@@ -84,7 +146,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -107,115 +174,133 @@ img {
 /* CSS */
 
 .nav-item {
-    padding: 0px 2vw 0px 2vw;
+  padding: 0px 2vw 0px 2vw;
 }
 
-.nav-link{
-    color: #e8eef1 !important;
+.nav-link {
+  color: #e8eef1 !important;
 }
 
 nav .fab {
-    color: #e8eef1;
-    margin: 0px -8px 0px -8px;
+  color: #e8eef1;
+  margin: 0px -8px 0px -8px;
 }
 
-nav{
-    max-height: 60px;
+nav {
+  max-height: 60px;
 }
 
-h1{
-    color: #000000;
-    font-size: 3em;
-    font-family: arial;
+h1 {
+  color: #000000;
+  font-size: 3em;
+  font-family: arial;
 }
 
-h1:nth-child(2){
-    font-size: 2em;
+h1:nth-child(2) {
+  font-size: 2em;
 }
 
-h2{
-    border-bottom: 4px solid #1e3d58;
+h2 {
+  border-bottom: 4px solid #1e3d58;
 }
 
 body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
-  }
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
 
 .row-header {
-    margin: 0px auto;
-    padding: 0px auto;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .row-content {
-    margin: 0px auto;
-    min-height: 300px;
+  margin: 0px auto;
+  min-height: 300px;
 }
 
-.navbar-brand{
-    font-family: consolas;
-    color: #e8eef1;
+.navbar-brand {
+  font-family: consolas;
+  color: #e8eef1;
 }
 
-.jumbotron .fas{
-    color: black;
+.jumbotron .fas {
+  color: black;
 }
 
-#aboutbio{
-    padding-left: 8vw;
-    padding-right: 8vw;
+#aboutbio {
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
-h2{
-    width: 150px;
+h2 {
+  width: 150px;
 }
 
-#skill .card{
-    max-width: 250px;
-    margin-bottom:20px;
+#skill .card {
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  -webkit-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -o-transform: perspective(1000px);
+  -ms-transform: perspective(1000px);
 }
 
+#skill .card .card-body {
+  transform: translateZ(35px);
+  -moz-transform: translateZ(35px);
+  -o-transform: translateZ(35px);
+  -ms-transform: translateZ(35px);
+  -webkit-transform: translateZ(35px);
+}
 
-/* cards */
-.tilt-card {
-    min-height: 250px;
-    position: relative;
-    width: 100%;
-    background-color: #fff;
-    margin-bottom: 1.6rem;
-    transform-style: preserve-3d;
-    transition: all 0.3s ease;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3.2rem 1.6rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06), 0 6px 6px rgba(0, 0, 0, 0.09);
-  }
+#skill .card .card-body h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-  .tilt-card:hover {
-    z-index: 3;
-    background-color: #ff9800;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
-  }
+.shadowed {
+  filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
+  -o-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
+  -ms-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
+  -moz-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-25vh);
+}
 
 /* small nav */
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  #navbarToggler {
+    margin: 12px -20px 0px -20px;
+  }
 
-    #navbarToggler{
-        margin: 12px -20px 0px -20px;
-    }
+  .navbar-nav {
+    max-height: 157px;
+  }
 
-    .navbar-nav{
-        max-height: 157px;
-    }
+  .nav-item {
+    border-top: 1px solid black;
+  }
 
-    .nav-item {
-        border-top: 1px solid black;
-    }
-
-    .nav-item:last-child{
-        border-bottom: 1px solid black;
-    }
+  .nav-item:last-child {
+    border-bottom: 1px solid black;
+  }
 }
 
+@media (min-width: 437px) {
+  #skill .card {
+    min-width: 155px;
+  }
+}
+
+@media (min-width: 1190px) {
+  #skill .card {
+    min-width: 200px;
+  }
+}
