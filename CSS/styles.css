@@ -274,6 +274,18 @@ h2 {
   transform: translateY(-25vh);
 }
 
+.anchortwo {
+  position: absolute;
+  transform: translateY(-10vh);
+}
+
+@media (min-width: 1400px) {
+  #response {
+    position: relative;
+    bottom: 18px;
+  }
+}
+
 /* small nav */
 @media (max-width: 768px) {
   #navbarToggler {
