@@ -297,10 +297,6 @@ form {
   }
 }
 
-#contactform {
-  max-width: 40px;
-}
-
 /* small nav */
 @media (max-width: 768px) {
   #navbarToggler {
