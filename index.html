@@ -196,15 +196,52 @@
 
     <span class="anchor" id="contact"></span>
     <div class="container">
-        <div class="row row-content">
+        <div class="row row-content mb-5">
             <div class="col-12 d-flex justify-content-center text-center align-self-center">
                 <h2 class="py-4 mb-3"><strong>Contact</strong></h2>
             </div>
-            <div class="col-12 text-center">
-                
+            <div class="col-12">
+                <form class="mt-4 mx-auto px-5 py-3 shadow-lg">
+                    <div class="col-12 text-center mb-3"><p id="messageTitle"><strong>$(Message).send()</strong></p></div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                        <label class="ps-3" for="floatingName">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                        <label class="ps-3" for="floatingEmail">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingSubject" placeholder="Subject">
+                        <label class="ps-3" for="floatingSubject">Subject</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="floatingPassword" placeholder="Message" style="height: 100px"></textarea>
+                        <label class="ps-3" for="floatingMessage">Message</label>
+                    </div>
+                    <div class="border d-grid col-3 col-md-2 mx-auto">
+                    <button type="submit" class="btn" style="background-color: #1e3d58; color: white;">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+
+    <footer class="footer bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -225,6 +262,7 @@
         crossorigin="anonymous"></script>
     <script src="js/animation.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    
 
 </body>
 

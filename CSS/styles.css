@@ -279,11 +279,26 @@ h2 {
   transform: translateY(-10vh);
 }
 
+form {
+  min-width: 300px;
+  max-width: 850px;
+  background-color: #d8dcff;
+  border-radius: 10px;
+}
+
+#messageTitle {
+  font-size: 25px;
+}
+
 @media (min-width: 1400px) {
   #response {
     position: relative;
     bottom: 18px;
   }
+}
+
+#contactform {
+  max-width: 40px;
 }
 
 /* small nav */
