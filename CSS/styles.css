@@ -177,8 +177,8 @@ img {
   padding: 0px 2vw 0px 2vw;
 }
 
-.nav-link {
-  color: #e8eef1 !important;
+#navbarToggler ul li a {
+  color: white;
 }
 
 nav .fab {
@@ -209,6 +209,19 @@ body {
   z-index: 0;
 }
 
+footer {
+  height: 60px;
+}
+
+footer .fab {
+  color: #e8eef1;
+}
+
+#about p:nth-child(odd):hover {
+  transform: skewx(10deg) translatex(150px);
+  transform-origin: bottom;
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
@@ -237,7 +250,7 @@ h2 {
   width: 150px;
 }
 
-#skill .card {
+#skills .card {
   max-width: 300px;
   margin-bottom: 20px;
   border-radius: 25px;
@@ -249,7 +262,7 @@ h2 {
   -ms-transform: perspective(1000px);
 }
 
-#skill .card .card-body {
+#skills .card .card-body {
   transform: translateZ(35px);
   -moz-transform: translateZ(35px);
   -o-transform: translateZ(35px);
@@ -257,16 +270,16 @@ h2 {
   -webkit-transform: translateZ(35px);
 }
 
-#skill .card .card-body h3 {
+#skills .card .card-body h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .shadowed {
   filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
-  -webkit-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
-  -o-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
-  -ms-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
-  -moz-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
+  -o-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
+  -ms-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
+  -moz-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.5));
 }
 
 .anchor {
@@ -317,13 +330,13 @@ form {
 }
 
 @media (min-width: 437px) {
-  #skill .card {
+  #skills .card {
     min-width: 155px;
   }
 }
 
 @media (min-width: 1190px) {
-  #skill .card {
+  #skills .card {
     min-width: 200px;
   }
 }
