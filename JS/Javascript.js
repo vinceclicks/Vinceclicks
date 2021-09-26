@@ -53,26 +53,3 @@ window.addEventListener('scroll'||'click', ()=> {
         }
         })
 })
-
-
-
-
-//how far down is my scroll
-/*window.onscroll = function (e) {
-    console.log(window.scrollY); // Value of scroll Y in px
-};
-*/
-
-
-//scroll active class changer
-/*window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("myP").className = "test";
-  } else {
-    document.getElementById("myP").className = "";
-  }
-}
-*/
- 

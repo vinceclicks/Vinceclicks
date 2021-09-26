@@ -217,11 +217,6 @@ footer .fab {
   color: #e8eef1;
 }
 
-#about p:nth-child(odd):hover {
-  transform: skewx(10deg) translatex(150px);
-  transform-origin: bottom;
-}
-
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
