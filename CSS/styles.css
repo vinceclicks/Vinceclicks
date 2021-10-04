@@ -341,3 +341,7 @@ form {
     font-size: 1rem;
   }
 }
+
+html {
+  scroll-padding-top: 70px;
+}
