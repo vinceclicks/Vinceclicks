@@ -294,6 +294,10 @@ form {
   border-radius: 10px;
 }
 
+html {
+  scroll-padding-top: 70px;
+}
+
 #messageTitle {
   font-size: 25px;
 }
@@ -340,8 +344,4 @@ form {
   h3 {
     font-size: 1rem;
   }
-}
-
-html {
-  scroll-padding-top: 70px;
 }
