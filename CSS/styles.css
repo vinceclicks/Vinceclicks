@@ -266,8 +266,45 @@ h2 {
 }
 
 #skills .card .card-body h3 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.project {
+    border: 5px solid #1e3d58;
+    border-radius: 3%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project__text {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    opacity: 0;
+    transform: translateY(-200%);
+    transition: all 1.5s;
+    width: 101%;
+    height: 101%;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.project__link {
+    cursor: pointer;
+    color: #fff;
+}
+
+.project__paragraph {
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.project:hover .project__text {
+    color: #fff;
+    background-color: rgb(30, 61, 88, 0.83);
+    transform: translateY(-50%);
+    opacity: 1;
 }
 
 .shadowed {
