@@ -225,6 +225,8 @@ footer .fab {
 .row-content {
     margin: 0px auto;
     min-height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-brand {
@@ -270,10 +272,14 @@ h2 {
 }
 
 .project {
-    border: 5px solid #1e3d58;
+    border: 5px solid #fff;
     border-radius: 3%;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e3d58;
 }
 
 .project__text {
@@ -288,6 +294,12 @@ h2 {
     display: block;
     margin: 0 auto;
     padding: 4rem;
+    color: white;
+}
+
+.project__img {
+    height: 95%;
+    width: 95%;
 }
 
 .project__link {
@@ -301,8 +313,7 @@ h2 {
 }
 
 .project:hover .project__text {
-    color: #fff;
-    background-color: rgb(30, 61, 88, 0.83);
+    background-color: rgb(30, 61, 88, 0.9);
     transform: translateY(-50%);
     opacity: 1;
 }
@@ -381,5 +392,97 @@ html {
 @media (max-width: 350px) {
     h3 {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 1380px) {
+    .project__text {
+        padding: 2rem;
+    }
+    .project__paragraph {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .project__text {
+        padding: 2rem;
+    }
+    .project__paragraph {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .project__text {
+        padding: 1rem;
+    }
+    .project__paragraph {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .project__text {
+        padding: 1rem;
+    }
+    .project__paragraph {
+        font-size: 10px !important;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .project {
+        border: 5px solid #fff;
+        border-radius: 3%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1e3d58;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .project__text {
+        position: static;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        transform: translateY(0%);
+        transition: none;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+
+    .project__img {
+        height: 95%;
+        width: 95%;
+        display: block;
+        border-radius: 3%;
+        margin: 1rem auto;
+    }
+
+    .project__link {
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .project__paragraph {
+        color: #fff;
+        margin-top: 1.5rem;
+        line-height: 2;
+    }
+
+    .project:hover .project__text {
+        background-color: rgb(30, 61, 88, 0.9);
+        transform: none;
+        opacity: 1;
     }
 }
